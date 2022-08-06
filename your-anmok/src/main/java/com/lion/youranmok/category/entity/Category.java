@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 @Entity
 @AllArgsConstructor
-@RequiredArgsConstructor
+@NoArgsConstructor
 public class Category {
 
     @Id
