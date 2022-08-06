@@ -1,17 +1,17 @@
-package com.lion.youranmok.homepage.homepage;
+package com.lion.youranmok.home.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/homepage")
+@RequestMapping("/home")
 public class HomePageController {
 
-    @GetMapping("/homepage")
-    public String homepage() {
+    @GetMapping()
+    public String home() {
 
-        return "homepage/main";
+        return "home";
 
     }
 
