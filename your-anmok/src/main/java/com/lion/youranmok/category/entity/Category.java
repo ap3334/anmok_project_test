@@ -1,14 +1,15 @@
 package com.lion.youranmok.category.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
+@Getter
+@ToString
 public class Category {
 
     @Id
