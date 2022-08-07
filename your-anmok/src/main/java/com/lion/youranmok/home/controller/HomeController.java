@@ -34,7 +34,6 @@ public class HomeController {
         }).collect(Collectors.toList());
 
 
-
         model.addAttribute("categories", categories);
 
         return "home";
